@@ -16,9 +16,9 @@ function App() {
     {/* <Admin/> */}
     {/* <RegistrationScreen/> */}
     <BrowserRouter>
-    <Header/>
+    {/* <Header/> */}
       <Routes>
-        <Route path='/register' element={<RegistrationScreen/>}/>
+        <Route path='/' element={<RegistrationScreen/>}/>
         <Route path='/admin' element={<Admin/>}/>
       </Routes>
     </BrowserRouter>
